@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class NewEntry : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void CloseEntry()
     {
-        
+        gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
